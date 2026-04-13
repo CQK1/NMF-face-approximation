@@ -1,5 +1,4 @@
 module NMFLogic
-    using LinearAlgebra
     export nmf_optimize
     function nmf_optimize(V, r; iterations=100)
         # 获取原始数据的行数和列数
